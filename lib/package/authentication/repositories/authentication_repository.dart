@@ -1,6 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart' as firebase_auth;
-import 'package:flutter_template_v1/data/repositories/authentication/authentication_failure.dart';
-import '../../models/authentication/user_model.dart';
+import 'package:flutter_template_v1/package/authentication/authentication_repository.dart';
 
 /// Repository which manages user authentication.
 class AuthenticationRepository {

@@ -3,9 +3,8 @@ import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_template_v1/constants/enum.dart';
-import 'package:flutter_template_v1/data/repositories/repositories.dart';
 
-import '../../../data/models/authentication/user_model.dart';
+import '../../package/authentication/authentication_repository.dart';
 
 part 'app_event.dart';
 part 'app_state.dart';

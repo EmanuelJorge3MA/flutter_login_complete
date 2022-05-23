@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../screens/screens.dart';
+import 'package:flutter_template_v1/interface/screens.dart';
 
 class AppRouter {
   Route? onGenerateRoute(RouteSettings routeSettings) {
